@@ -1,10 +1,38 @@
-# League For Basketball — From Concept to App Store (Showcase)
+# League For Basketball — Real-Time Sports Social Platform (Showcase)
 
-A location-based basketball social app I designed, built, and shipped on my own — part of the **League Mobile Apps** sports suite that began around **2015**.
+A location-based basketball social app I designed, built, marketed, and shipped on my own — flagship of the **League Mobile Apps** suite that began around **2015**.
 
-This repository is portfolio / archival material. The apps were released on the **iOS App Store and Google Play**, but are **no longer in circulation**. The point of this showcase is simple: I have been taking mobile products from concept → design → cloud backend → store release for a long time.
+This is portfolio / archival material. The apps were released on the **iOS App Store and Google Play**, but are **no longer in circulation**. The point of this showcase: I have taken mobile products from concept → realtime backend → brand system → ambassador program → store release for a long time.
 
-Snippets under [`snippets/`](./snippets) are **illustrative only** — they are not a working product checkout. The Cap8 client excerpts reflect a later modernization pass on the same product family.
+Snippets under [`snippets/`](./snippets) are **illustrative only**. Cap8 excerpts reflect a later modernization pass on the same product family.
+
+---
+
+## The headline: it was a real-time platform
+
+League was not a static “find a court” directory. The product was built so athletes got **instant feedback** from the live field:
+
+| What happened | What you saw / felt immediately |
+|---------------|----------------------------------|
+| Someone checked in at your court | Live player count + optional push (“players are here”) |
+| You checked in | You appeared on that location’s live list for others |
+| Someone rated your game | Stats / badge update + rating push (`#GetYourStatsUp`) |
+| You rated a peer | Their mystats recalculated; relationship created or updated |
+| New nearby activity | Location / in-app messages kept you opening the app |
+
+That realtime loop — **congregate → compete → compare** — was the product thesis and the commercial thesis. Engagement frequency was the inventory for brand and advertising opportunities.
+
+<p align="center">
+  <img src="./MEDIA/opportunity-realtime-connection.png" alt="Real-time connection slide" width="720" />
+</p>
+
+<p align="center">
+  <img src="./MEDIA/opportunity-realtime-location-notifications.png" alt="Real-time location notifications" width="360" />
+  &nbsp;
+  <img src="./MEDIA/opportunity-realtime-rating-notifications.png" alt="Real-time rating notifications" width="360" />
+</p>
+
+See [BUSINESS.md](./BUSINESS.md) for the full go-to-market / monetization write-up, and [ARCHITECTURE.md](./ARCHITECTURE.md) for how check-in, occupancy, ratings, and push were engineered.
 
 ---
 
@@ -16,13 +44,33 @@ That was my whole motivation for creating **League For Basketball**. I wanted yo
 
 There wasn't a basketball app that connected streetball, AAU, high school, college, semi-pro, and pro players — men and women — around the reasons they actually play: compete against the best you can find, sharpen your game, and make a name for yourself among your peers. League For Basketball brought that together through mobile technology, geo-location, and social media.
 
-That basketball app was the flagship of a broader **League Mobile Apps** brand — basketball, soccer, volleyball, lacrosse, and tennis — same product idea, sport by sport.
+That basketball app was the flagship of a broader **League Mobile Apps** brand — basketball, soccer, volleyball, lacrosse, and tennis — same realtime product idea, sport by sport.
 
 <p align="center">
-  <img src="./MEDIA/leagueBasketballSplash.png" alt="League For Basketball splash" width="280" />
-  &nbsp;
-  <img src="./MEDIA/app-brandLogo-basketball.png" alt="League For Basketball brand mark" width="280" />
+  <img src="./MEDIA/suite-pitch-cover.png" alt="League Mobile Apps suite pitch cover" width="640" />
 </p>
+
+---
+
+## Marketing was first-class — including brand ambassadors
+
+This was not “ship code and hope.” The 2016 pitch and opportunity decks treated League as a brand platform with clear revenue paths:
+
+- **Realtime engagement → ad / notification inventory** (mobile ad networks, custom notification ads, custom event campaigns)
+- **Geo + moment targeting** for sports businesses around tournaments, camps, tryouts, and known athlete hangouts
+- **Grassroots athlete endorsements** with formal contracts, campaign hashtag `#GetYourStatsUp`, SMS download CTAs, and League gear
+- **Finished social creatives** across Facebook, Instagram, and Twitter for each sport
+- **In-app message campaigns** driving check-in, create-location, and invite behaviors
+
+Brand ambassadors were real: signed Endorsement Agreements through Persistence Multimedia Productions LLC required ambassadors to use the realtime product (profiles, check-ins, location creation, rating shares) while promoting the apps.
+
+<p align="center">
+  <img src="./MEDIA/ad-facebook-basketball.jpg" alt="League For Basketball Facebook ad creative" width="360" />
+  &nbsp;
+  <img src="./MEDIA/inapp-checkin-message-basketball.png" alt="In-app check-in message creative" width="280" />
+</p>
+
+Details + receipts: [BUSINESS.md](./BUSINESS.md) · [`receipts/`](./receipts)
 
 ---
 
@@ -30,11 +78,15 @@ That basketball app was the flagship of a broader **League Mobile Apps** brand �
 
 | Claim | Evidence in this repo |
 |-------|------------------------|
-| Solo founder / builder | Product site, brand pages, and engineering excerpts I authored |
-| Multi-year evolution | ~2015 marketing site → store releases → later Cap8 modernization snippets |
-| Full product lifecycle | Concept, branding, web presence, mobile client, Firebase backend, App Store / Play |
-| Sports suite, not a one-off | Archived site lists Basketball, Soccer, Volleyball, Lacrosse, Tennis |
-| No longer live | Archival framing only — not a current consumer product |
+| Realtime social sports product | Opportunity deck stills, architecture, push/rating/check-in snippets |
+| Instant user feedback loops | Live occupancy, rating notifications, in-app messages |
+| Solo founder / builder | Product site, pitch (Founder/Developer), engineering excerpts |
+| Serious marketing system | Pitch GTM slides, social ads, in-app creatives, ambassador template |
+| Brand / advertising opportunity | Sales-channel slides + contextual notification inventory thesis |
+| Brand ambassadors executed | Endorsement Agreement template + 2016 program evidence (signed PII withheld) |
+| Multi-year evolution | ~2015 site → 2016 business materials → later Cap8 snippets |
+| Store-shipped suite | iOS + Android positioning on archived site; five sports |
+| No longer live | Archival framing only |
 
 ---
 
@@ -42,34 +94,34 @@ That basketball app was the flagship of a broader **League Mobile Apps** brand �
 
 | Path | Contents |
 |------|----------|
-| [`site-archive/`](./site-archive) | 2015 League Mobile Apps marketing site (`leaguemobileapps.com` era) |
-| [`MEDIA/`](./MEDIA) | Basketball brand / feature stills pulled from that site |
+| [`site-archive/`](./site-archive) | 2015 League Mobile Apps marketing site |
+| [`receipts/`](./receipts) | Pitch PDF, endorsement template, page previews, ad samples |
+| [`MEDIA/`](./MEDIA) | Brand, suite, realtime, and ad stills |
+| [`BUSINESS.md`](./BUSINESS.md) | Realtime GTM, monetization, ambassador program |
 | [`snippets/`](./snippets) | Sanitized Cap8 + Cloud Functions architecture excerpts |
-| [`ARCHITECTURE.md`](./ARCHITECTURE.md) | Geo check-in / ratings / Firestore design walkthrough |
-| [`TIMELINE.md`](./TIMELINE.md) | Dated filesystem receipts from the archive |
+| [`ARCHITECTURE.md`](./ARCHITECTURE.md) | Engineering: geo check-in, occupancy, ratings, push |
+| [`TIMELINE.md`](./TIMELINE.md) | Dated filesystem receipts |
 | [`DISCLAIMER.md`](./DISCLAIMER.md) | Archival context — apps not currently in circulation |
-
-Open the historic site locally via [`site-archive/index.html`](./site-archive/index.html) or the basketball product page [`site-archive/basketball.html`](./site-archive/basketball.html). The original About / founder page is [`site-archive/about.html`](./site-archive/about.html).
 
 ---
 
-## The League Mobile Apps suite (~2015)
+## The League Mobile Apps suite (~2015–2016)
 
-From the archived homepage — each title was positioned as free on **iOS and Android**:
+Each title was positioned free on **iOS and Android**:
 
-1. **League For Basketball** — flagship; courts, check-in, peer skill ratings
+1. **League For Basketball** — flagship; courts, live check-in, peer skill ratings
 2. **League For Soccer**
 3. **League For Volleyball**
 4. **League For Lacrosse**
 5. **League For Tennis**
 
-Same core idea across sports: geo-location + peer ratings + social competition (“get your stats up”).
+Shared idea: geo-location + **realtime** peer competition + social proof (“get your stats up”), offered in English, Spanish, and French.
 
 ---
 
 ## Architecture (engineering slice)
 
-Later stack shape for the basketball line (modern Cap8 rebuild + Cloud Functions):
+Later stack shape for the basketball line (modern Cap8 rebuild + Cloud Functions) — the machinery behind the realtime product:
 
 ```mermaid
 flowchart LR
@@ -80,9 +132,9 @@ flowchart LR
   subgraph Cloud["Firebase / GCP"]
     AUTH["Firebase Auth"]
     CF["Cloud Functions"]
-    FS[(Firestore)]
+    FS[(Firestore\nlive occupancy + ratings)]
     ST[(Cloud Storage)]
-    FCM["FCM / Push"]
+    FCM["FCM / Push\nrating + location alerts"]
   end
 
   APP -->|Auth| AUTH
@@ -90,21 +142,20 @@ flowchart LR
   APP -->|profile + court photos| ST
   APP -->|nearby / check-in / ratings| CF
   CF --> FS
-  CF --> FCM
+  CF -->|instant feedback| FCM
+  FCM --> APP
 ```
 
-See [ARCHITECTURE.md](./ARCHITECTURE.md) for proximity check-in, live occupancy, rating aggregation, and dual auto-checkout.
-
-### Design principles
+### Design principles (product + engineering)
 
 | Principle | How it shows up |
 |-----------|-----------------|
-| Proximity as a gate | Check-in only after server-side distance verification against the court |
-| Unique I/O identity | `userId-locationId` keys drive create-or-update on `Locations_IO` |
-| Live occupancy | `LiveUsers_List` + player counts updated with check-in/out |
-| Rating create-or-update | Existing relationship updates in place; otherwise a new rating doc |
-| Stats as derived data | Aggregated skill averages + badges written after each rating |
-| Dual auto-checkout | Client geo drift + scheduled Cloud Function cron for stale sessions |
+| Realtime first | Live `LiveUsers_List`, rating rollups, FCM fan-out on occupancy/rating changes |
+| Instant feedback | Check-in visible to peers; rating → mystats → push |
+| Proximity as a gate | Server-side distance verification before check-in |
+| Unique I/O identity | `userId-locationId` create-or-update on `Locations_IO` |
+| Dual auto-checkout | Client geo drift + cron so live counts stay honest |
+| Engagement = inventory | Notifications / in-app messages designed for frequency + brand CTAs |
 
 ---
 
@@ -115,9 +166,9 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for proximity check-in, live occupancy,
 | Mobile | Angular 22, Ionic 9, Capacitor 8, Firebase JS SDK 12 |
 | State | NGXS |
 | Backend | Firebase Cloud Functions, Firestore, Cloud Storage |
+| Realtime feedback | Firestore listeners + FCM (location + rating pushes) |
 | Geo | Bounding-box prefilter → distance gate; optional Places seeding |
-| Push | FCM via Cloud Functions + Capacitor Push |
-| Historic web | Bootstrap 3 marketing site (archived under `site-archive/`) |
+| Historic web / GTM | Bootstrap marketing site + 2016 pitch / ads / ambassadors |
 
 ---
 
@@ -141,13 +192,10 @@ Sanitized excerpts live under [`snippets/`](./snippets).
 
 ## Media
 
-Brand and feature stills from the 2015 site:
-
-- [`MEDIA/leagueBasketballSplash.png`](./MEDIA/leagueBasketballSplash.png)
-- [`MEDIA/app-brandLogo-basketball.png`](./MEDIA/app-brandLogo-basketball.png)
-- [`MEDIA/basketballFeature1.png`](./MEDIA/basketballFeature1.png)
-- [`MEDIA/basketballFeature2.png`](./MEDIA/basketballFeature2.png)
-
-Additional store-demo video can be dropped into [`MEDIA/`](./MEDIA) later.
+- Suite pitch cover — [`MEDIA/suite-pitch-cover.png`](./MEDIA/suite-pitch-cover.png)
+- Realtime opportunity stills — [`MEDIA/opportunity-realtime-*.png`](./MEDIA)
+- Competitive “real-time” pitch slide — [`MEDIA/pitch-competitive-realtime.png`](./MEDIA/pitch-competitive-realtime.png)
+- Social + in-app creatives — [`MEDIA/ad-facebook-basketball.jpg`](./MEDIA/ad-facebook-basketball.jpg), [`MEDIA/inapp-checkin-message-basketball.png`](./MEDIA/inapp-checkin-message-basketball.png)
+- Brand stills from the 2015 site — splash / logo / feature shots under [`MEDIA/`](./MEDIA)
 
 ---

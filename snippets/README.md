@@ -2,7 +2,7 @@
 
 Illustrative excerpts only — **not** a buildable checkout.
 
-These reflect a **later modernization pass** on the basketball line (Ionic/Angular/Capacitor + Firebase Functions). For the original mid-2010s product story, store-era marketing site, and multi-sport suite context, see the repo root README, [`TIMELINE.md`](../TIMELINE.md), and [`site-archive/`](../site-archive).
+These reflect a **later modernization pass** on the basketball line (Ionic/Angular/Capacitor + Firebase Functions) — the engineering behind live occupancy, ratings, and push feedback. For the mid-2010s product story, realtime GTM, ambassadors, and suite marketing, see the root README, [`BUSINESS.md`](../BUSINESS.md), [`TIMELINE.md`](../TIMELINE.md), [`site-archive/`](../site-archive), and [`receipts/`](../receipts).
 
 | Folder | Focus |
 |--------|--------|

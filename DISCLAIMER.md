@@ -8,12 +8,19 @@ This repository is **portfolio / archival material only**.
 - Secrets, API keys, service accounts, Firebase project IDs, and live endpoints are omitted or replaced with placeholders.
 - No warranty is offered, express or implied.
 
+## Business materials
+
+- Pitch and opportunity decks under [`receipts/`](./receipts) are historical fundraising / GTM artifacts (circa 2016).
+- Market sizes, revenue projections, and funding asks in those materials are **archival** — not current forecasts or live solicitations.
+- The full July 2016 business plan was marked confidential and is **not** republished here.
+- Signed brand-ambassador contracts containing personal information are **not** included; only the unsigned endorsement template and page previews are public.
+- Review [`receipts/ads-sample/`](./receipts/ads-sample) and endorsement previews before wider sharing if you want further redaction.
+
 ## Site archive
 
 - [`site-archive/`](./site-archive) is a preserved copy of the historic `leaguemobileapps.com` marketing site (~2015).
 - External CDN links, analytics, AddThis widgets, and old store short-links may be dead.
-- Store badges / goo.gl links on archived pages are historical evidence of release positioning, not current download availability.
 
 ## Positioning
 
-This showcase documents solo, end-to-end mobile product work — concept, branding, web presence, client, cloud backend, and store release — as part of a multi-sport suite started around 2015. It is meant to demonstrate long-running mobile shipping experience, not a current consumer offering.
+This showcase documents solo, end-to-end mobile product work — concept, **realtime** platform, branding, web presence, marketing/ambassador programs, advertising opportunity design, client, cloud backend, and store release — as part of a multi-sport suite started around 2015. It demonstrates long-running mobile shipping and product-thinking experience, not a current consumer offering.
