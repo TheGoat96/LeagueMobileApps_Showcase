@@ -220,7 +220,26 @@ Sanitized excerpts live under [`snippets/`](./snippets).
 - Social + in-app creatives — [`MEDIA/ad-facebook-basketball.jpg`](./MEDIA/ad-facebook-basketball.jpg), [`MEDIA/inapp-checkin-message-basketball.png`](./MEDIA/inapp-checkin-message-basketball.png)
 - Brand stills from the 2015 site — splash / logo / feature shots under [`MEDIA/`](./MEDIA)
 
+| Conceptual phases |
+---
+<img width="2016" height="1512" alt="IMG_2980" src="https://github.com/user-attachments/assets/27934016-0210-42ee-863c-411500e1696d" />
+
+<img width="2016" height="1512" alt="IMG_2983" src="https://github.com/user-attachments/assets/ec6edddf-cdd1-4b18-994f-c997be297ed9" />
+
+| Early device compatibility testing |
+
 <img width="3264" height="2448" alt="IMG_5907" src="https://github.com/user-attachments/assets/6ee35db4-c136-455f-af68-4ddd2fa738df" />
 
+| Late version screenshots |
+
+<img width="1125" height="2436" alt="localhost_3334_access_landing(iPhone X) (1)" src="https://github.com/user-attachments/assets/f2edb08a-fbdb-41ff-ab23-24d2de571577" />
+
+<img width="1125" height="2436" alt="localhost_3334_access_landing(iPhone X) (4)" src="https://github.com/user-attachments/assets/9012df00-8f7f-48c0-b0be-7880a0e8561b" />
+
+<img width="1125" height="2436" alt="localhost_3334_access_landing(iPhone X) (5)" src="https://github.com/user-attachments/assets/0339448d-c7b2-46dd-8dd8-5c8baaec151c" />
+
+<img width="1125" height="2436" alt="localhost_3334_access_landing(iPhone X) (3)" src="https://github.com/user-attachments/assets/37537bdf-4c08-4f0b-8c4d-62eb4a4c68fe" />
+
+<img width="1242" height="744" alt="IMG_5025" src="https://github.com/user-attachments/assets/ea159236-434a-4cf9-802f-822a09b721ee" />
 
 ---
