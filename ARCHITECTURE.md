@@ -2,7 +2,7 @@
 
 Deeper system design for the portfolio showcase. No production credentials or proprietary business calibrations are described here.
 
-**Context:** League Mobile Apps (flagship: League For Basketball) was a solo-built, store-shipped suite active roughly **2015–2019** (see [TIMELINE.md](./TIMELINE.md), [BUSINESS.md](./BUSINESS.md), and the 2015 [`site-archive/`](./site-archive)). Commercially and product-wise it was positioned as a **real-time** platform: live court occupancy, instant peer ratings, and push feedback. The flows below describe the **later** Cap8 + Cloud Functions shape of that same product family — useful for engineering discussion, not a claim that this exact stack was the original store binary.
+**Context:** League Mobile Apps (flagship: League For Basketball) was a solo-built, store-shipped suite active roughly **2015–2019** (see [TIMELINE.md](./TIMELINE.md), [BUSINESS.md](./BUSINESS.md), and the 2015 [`site-archive/`](./site-archive)). Commercially and product-wise it was positioned as a **real-time** platform: live court occupancy, instant peer ratings, and push feedback — with an internal **admin console** for court catalog ops and geo-targeted campaigns. Consumer flows below describe the **later** Cap8 + Cloud Functions shape; admin snippets reflect the historic League Core Admin Site (HTML/JS + PHP). Neither is a full production checkout.
 
 ---
 
@@ -144,6 +144,30 @@ Two paths keep occupancy honest when the app is backgrounded or offline.
 3. Aggregator recalculates per-skill averages and overall badge
 4. Derived mystats document is written under the rated user’s profile
 5. Optional rating push notifies the rated user
+
+---
+
+## Admin console (League Core Admin Site)
+
+Internal ops UI modules (circa mid-2010s):
+
+| Module | Role |
+|--------|------|
+| Courts | Add / search / delete venues |
+| Players | Nearby / at-location player lookup |
+| Text notifications | Simple push campaigns |
+| Rich notifications | Brandable push (sponsor/affiliate/CTA) |
+| In-app notifications | Persistent inbox messages |
+
+Shared targeting model for campaigns:
+
+1. Choose audience: **Location** | **Area** | **All**
+2. Resolve PHP endpoint (`notifyAtLocal` / `notifyInArea` / `notifyAll`, plus in-app and text variants)
+3. Persist creative (including rich sponsor fields)
+4. Select logged-in users by proximity + locale + device OS
+5. Fan out through the push provider
+
+Sanitized excerpts: [`snippets/admin/`](./snippets/admin).
 
 ---
 

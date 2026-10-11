@@ -59,6 +59,20 @@ Secondary market called out in planning materials: local/national sports busines
 
 ---
 
+## Admin ops console (campaign delivery)
+
+The consumer apps were only half the platform. An internal **League Core Admin Site** let ops:
+
+- Maintain the courts catalog (add / search / delete)
+- Inspect players near a point or at a location
+- Compose **text**, **rich**, and **in-app** campaigns
+- Target **Location / Area / All**, with locale + device filters
+- Attach sponsor / affiliate creative fields on rich notifications — the operational side of “custom notification ads”
+
+See [`snippets/admin/`](./snippets/admin) and the README marketing section.
+
+---
+
 ## Brand ambassadors (executed)
 
 This was not only a slide. In mid-2016 the company ran **micro-athlete endorsement** programs with signed agreements (templates + executed copies archived privately). Ambassador duties explicitly exercised the realtime product:

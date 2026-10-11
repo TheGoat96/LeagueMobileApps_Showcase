@@ -64,6 +64,20 @@ This was not “ship code and hope.” The 2016 pitch and opportunity decks trea
 
 Brand ambassadors were real: signed Endorsement Agreements through Persistence Multimedia Productions LLC required ambassadors to use the realtime product (profiles, check-ins, location creation, rating shares) while promoting the apps.
 
+### Ops console: we built the administrative side too
+
+Marketing and monetization needed an **internal admin platform** (League Core Admin Site) — not just consumer apps. Talking points:
+
+- **Courts catalog ops** — search / add / delete venues so the map wasn’t only user-generated
+- **Players intelligence** — look up who’s nearby or checked in at a location (ops visibility into the live field)
+- **Three campaign channels** — text push, **rich** push (sponsor/affiliate fields + CTA), and persistent **in-app messages**
+- **Audience scopes** — target **Location** (checked-in court), **Area** (lat/lng + radius), or **All** users
+- **Locale + device filters** — EN/ES/FR-style locale targeting and iOS / Android / all
+- **Brand inventory in the composer** — rich notifications carried header, sponsor line, affiliate slots, splash image, body, and button CTA — the same surfaces the business decks sold as custom notification ads
+- **Geo fan-out backend** — PHP endpoints persisted the campaign, selected logged-in users in a proximity box, and pushed via the provider stack
+
+Sanitized admin excerpts: [`snippets/admin/`](./snippets/admin)
+
 <p align="center">
   <img src="./MEDIA/ad-facebook-basketball.jpg" alt="League For Basketball Facebook ad creative" width="360" />
   &nbsp;
@@ -82,7 +96,8 @@ Details + receipts: [BUSINESS.md](./BUSINESS.md) · [`receipts/`](./receipts)
 | Instant user feedback loops | Live occupancy, rating notifications, in-app messages |
 | Solo founder / builder | Product site, pitch (Founder/Developer), engineering excerpts |
 | Serious marketing system | Pitch GTM slides, social ads, in-app creatives, ambassador template |
-| Brand / advertising opportunity | Sales-channel slides + contextual notification inventory thesis |
+| Internal admin / ops console | Courts, players, rich/text/in-app campaigns with Location·Area·All targeting ([`snippets/admin/`](./snippets/admin)) |
+| Brand / advertising opportunity | Sales-channel slides + contextual notification inventory + admin rich-compose fields |
 | Brand ambassadors executed | Endorsement Agreement template + 2016 program evidence (signed PII withheld) |
 | Multi-year evolution | ~2015 launch → 2016 GTM peak materials → active through 2019 → later Cap8 snippets |
 | Store-shipped suite | iOS + Android positioning on archived site; five sports; market presence into 2019 |
@@ -98,8 +113,8 @@ Details + receipts: [BUSINESS.md](./BUSINESS.md) · [`receipts/`](./receipts)
 | [`receipts/`](./receipts) | Pitch PDF, endorsement template, page previews, ad samples |
 | [`MEDIA/`](./MEDIA) | Brand, suite, realtime, and ad stills |
 | [`BUSINESS.md`](./BUSINESS.md) | Realtime GTM, monetization, ambassador program |
-| [`snippets/`](./snippets) | Sanitized Cap8 + Cloud Functions architecture excerpts |
-| [`ARCHITECTURE.md`](./ARCHITECTURE.md) | Engineering: geo check-in, occupancy, ratings, push |
+| [`snippets/`](./snippets) | Sanitized Cap8 + Cloud Functions + **admin console** excerpts |
+| [`ARCHITECTURE.md`](./ARCHITECTURE.md) | Engineering: geo check-in, occupancy, ratings, push, admin ops |
 | [`TIMELINE.md`](./TIMELINE.md) | Dated filesystem receipts |
 | [`DISCLAIMER.md`](./DISCLAIMER.md) | Archival context — apps not currently in circulation |
 
@@ -126,36 +141,37 @@ Later stack shape for the basketball line (modern Cap8 rebuild + Cloud Functions
 ```mermaid
 flowchart LR
   subgraph Mobile["iOS / Android / Web"]
-    APP["League Basketball\nIonic + Angular + Capacitor"]
+    APP["League consumer apps"]
   end
 
-  subgraph Cloud["Firebase / GCP"]
-    AUTH["Firebase Auth"]
-    CF["Cloud Functions"]
-    FS[(Firestore\nlive occupancy + ratings)]
-    ST[(Cloud Storage)]
-    FCM["FCM / Push\nrating + location alerts"]
+  subgraph Ops["Internal ops"]
+    ADM["League Core Admin Site\ncourts · players · campaigns"]
   end
 
-  APP -->|Auth| AUTH
-  APP -->|realtime reads / writes| FS
-  APP -->|profile + court photos| ST
-  APP -->|nearby / check-in / ratings| CF
-  CF --> FS
-  CF -->|instant feedback| FCM
-  FCM --> APP
+  subgraph Cloud["Backend"]
+    API["Cloud APIs / PHP League Core"]
+    DATA[(Live occupancy + ratings + messages)]
+    PUSH["Push / rich / in-app / SMS"]
+  end
+
+  APP -->|check-in / rate / nearby| API
+  ADM -->|catalog + geo campaigns| API
+  API --> DATA
+  API --> PUSH
+  PUSH -->|instant feedback| APP
 ```
 
 ### Design principles (product + engineering)
 
 | Principle | How it shows up |
 |-----------|-----------------|
-| Realtime first | Live `LiveUsers_List`, rating rollups, FCM fan-out on occupancy/rating changes |
+| Realtime first | Live occupancy, rating rollups, push fan-out on occupancy/rating changes |
 | Instant feedback | Check-in visible to peers; rating → mystats → push |
 | Proximity as a gate | Server-side distance verification before check-in |
-| Unique I/O identity | `userId-locationId` create-or-update on `Locations_IO` |
+| Unique I/O identity | `userId-locationId` create-or-update on location I/O history |
 | Dual auto-checkout | Client geo drift + cron so live counts stay honest |
 | Engagement = inventory | Notifications / in-app messages designed for frequency + brand CTAs |
+| Ops controls the inventory | Admin console composes Location / Area / All campaigns with sponsor fields |
 
 ---
 
@@ -169,6 +185,7 @@ flowchart LR
 | Realtime feedback | Firestore listeners + FCM (location + rating pushes) |
 | Geo | Bounding-box prefilter → distance gate; optional Places seeding |
 | Historic web / GTM | Bootstrap marketing site + 2016 pitch / ads / ambassadors |
+| Historic admin | League Core Admin Site (HTML/JS + PHP) — courts, players, rich/text/in-app campaigns |
 
 ---
 
@@ -187,6 +204,11 @@ Sanitized excerpts live under [`snippets/`](./snippets).
 | Nearby locations query | `snippets/cloud/03-nearby-locations-query.ts` |
 | Check-in permission | `snippets/cloud/04-checkin-permission.ts` |
 | Rating aggregation | `snippets/cloud/05-rating-aggregation.ts` |
+| Admin console surface | `snippets/admin/01-admin-console-surface.js` |
+| Audience targeting | `snippets/admin/02-audience-targeting.js` |
+| Rich notification compose | `snippets/admin/03-rich-notification-compose.js` |
+| Geo audience query | `snippets/admin/04-geo-audience-query.php` |
+| Court catalog ops | `snippets/admin/05-court-catalog-ops.js` |
 
 ---
 
