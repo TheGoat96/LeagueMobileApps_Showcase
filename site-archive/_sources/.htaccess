@@ -1,0 +1,5 @@
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+IndexIgnore *
+
+Options +MultiViews

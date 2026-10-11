@@ -1,0 +1,1348 @@
+
+/////////   Classes   ///////////////
+
+
+
+
+
+
+
+
+
+
+//////// media queiries //////////////////
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+  
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  
+  #home-banner{
+      
+      background-size: cover;
+      margin-top: 55px;
+  }
+  
+  #home-banner div .grid_12 a {
+    padding: 8.5em 0 9em 0;
+    width: 100%;
+    height: auto;
+  }
+
+  #myNavbar.navbar-inverse.navbar-default{
+    height: 70px;
+  }
+
+  #myNavbar.navbar-inverse.navbar-default .navbar-brand img{
+    height: 35px;
+  }
+
+  .navbar-nav{
+    margin: 20px 0 0 0;
+  }
+  
+  .navbar-toggle{
+    margin-top: 15px;
+    
+  }
+  
+  #myNavbar.navbar-inverse.navbar-default .navbar-toggle{
+    
+    background-color: #191d21 !important;
+    
+  }
+  
+  #myNavbar.navbar-inverse.navbar-default .navbar-collapse{
+    background-color: #191d21 !important;
+    
+  }  
+
+ .app-social-right{
+    display:none;
+    
+  }
+  
+  .app-brand-logo{
+    margin-top:60px;
+    margin-bottom:20px;
+    border-bottom: solid 5px;
+  }
+  .app-brand-logo .container .row .bLogo{
+    height: 135px;
+  }
+  
+  .mobile-only{
+  
+  display: block;
+  
+  }
+
+  .app-social-center{
+      
+      text-align: center !important;
+      margin-bottom: 20px;
+  }    
+      
+  .app-social-center h5{
+      text-transform: uppercase;
+      color: #444444;
+      font-weight: 600;
+      font-size: 1em;
+      margin: 0 3px 0;
+      padding: 0;
+  }
+      
+  .app-social-center .platform-icons{
+        height: 45px;
+  }      
+  
+  .platform-icons .ico-mac{
+      background: url('../images/ico_os-logo-ios.png') center center no-repeat;
+      display: inline-block;
+  }
+        
+  .platform-icons .ico-and {
+      background: url('../images/ico_os-logo-and.png') center center no-repeat;
+      display: inline-block;
+  }
+        
+  .platform-icons a{
+    
+    padding: 0;
+    height: 45px;
+    width: 28%;
+    
+  }
+        
+
+  
+  .appCntContainer .feature-container .feature-copy .bullet{
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    line-height: 15px;
+    border: 2px solid !important;
+    
+  }
+  
+  .appCntContainer .feature-container .feature-copy .copy h6{
+    font-weight: 500;
+    font-size: 1.2em !important;
+  }
+  
+  .appCntContainer .feature-container p{
+    font-size: 1em;
+  }
+  
+  
+  .appCntContainer .feature-container .feature-graphic{
+    min-height: 300px;
+  }
+  
+  
+  div.social-share.mobile-only{
+    width:100%;
+    margin: 20px auto 0;
+    padding-left: .5em;
+    
+  }
+    
+    
+    
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+   
+  #home-banner{
+      
+      background-size: cover;
+      margin-top: 55px;
+  }
+  
+  #home-banner div .grid_12 a {
+    padding: 8.5em 0 9em 0;
+    width: 100%;
+    height: auto;
+  } 
+   
+    
+  #myNavbar.navbar-inverse.navbar-default{
+    height: 70px;
+  }
+
+  #myNavbar.navbar-inverse.navbar-default .navbar-brand img{
+    height: 35px;
+  }
+
+  .navbar-nav{
+    margin: 20px 0 0 0;
+  }
+  
+  .navbar-toggle{
+    margin-top: 15px;
+    
+  }
+  
+  #myNavbar.navbar-inverse.navbar-default .navbar-toggle{
+    
+    background-color: #191d21 !important;
+    
+  }
+  
+  #myNavbar.navbar-inverse.navbar-default .navbar-collapse{
+    background-color: #191d21 !important;
+    
+  }   
+
+ .app-social-right{
+    display:none;
+    
+  }
+  
+  .app-brand-logo{
+    margin-top:60px;
+    margin-bottom:20px;
+    border-bottom: solid 5px;
+  }
+  .app-brand-logo .container .row .bLogo{
+    height: 135px;
+  }
+  
+  .mobile-only{
+  
+  display: block;
+  
+  }
+
+  .app-social-center{
+      
+      text-align: center !important;
+      margin-bottom: 20px;
+  }    
+      
+  .app-social-center h5{
+      text-transform: uppercase;
+      color: #444444;
+      font-weight: 600;
+      font-size: 1em;
+      margin: 0 3px 0;
+      padding: 0;
+  }
+      
+  .app-social-center .platform-icons{
+        height: 45px;
+  }      
+  
+  .platform-icons .ico-mac{
+      background: url('../images/ico_os-logo-ios.png') center center no-repeat;
+      display: inline-block;
+  }
+        
+  .platform-icons .ico-and {
+      background: url('../images/ico_os-logo-and.png') center center no-repeat;
+      display: inline-block;
+  }
+        
+  .platform-icons a{
+    
+    padding: 0;
+    height: 45px;
+    width: 28%;
+    
+  }
+        
+
+  
+  .appCntContainer .feature-container .feature-copy .bullet{
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    line-height: 15px;
+    border: 2px solid !important;
+    
+  }
+  
+  .appCntContainer .feature-container .feature-copy .copy h6{
+    font-weight: 500;
+    font-size: 1.2em !important;
+
+  }
+  
+   .appCntContainer .feature-container .feature-copy .copy {
+ 
+    width: 93%;
+    margin-left: 3%;  
+  }
+  
+  .appCntContainer .feature-container p{
+    font-size: 1em;
+  }
+  
+  
+  .appCntContainer .feature-container .feature-graphic{
+    min-height: 300px;
+  }
+  
+  
+  div.social-share.mobile-only{
+    width:100%;
+    margin: 20px auto 0;
+    padding-left: .5em;
+    
+  }  
+    
+    
+    
+    
+    
+    
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    
+  .appCntContainer .feature-container .feature-copy .copy {
+
+    width: 93%;
+    margin-left: 3%;  
+  }
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    
+  .appCntContainer .feature-container .feature-copy .copy{
+  
+    width: 93%;
+    margin-left: 3%;  
+  }
+    
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    
+    
+  .appCntContainer .feature-container .feature-copy .copy {
+    width: 93%;
+    margin-left: 3%;  
+  }  
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    
+    
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+    
+    #home-banner{
+      
+      background-size: cover;
+      margin-top: 55px;
+  }
+  
+  #home-banner div .grid_12 a {
+    padding: 8.5em 0 9em 0;
+    width: 100%;
+    height: auto;
+  }
+
+  #myNavbar.navbar-inverse.navbar-default{
+    height: 70px;
+  }
+
+  #myNavbar.navbar-inverse.navbar-default .navbar-brand img{
+    height: 35px;
+  }
+
+  .navbar-nav{
+    margin: 20px 0 0 0;
+  }
+  
+  .navbar-toggle{
+    margin-top: 15px;
+    
+  }
+  
+  #myNavbar.navbar-inverse.navbar-default .navbar-toggle{
+    
+    background-color: #191d21 !important;
+    
+  }
+  
+  #myNavbar.navbar-inverse.navbar-default .navbar-collapse{
+    background-color: #191d21 !important;
+    
+  }  
+
+ .app-social-right{
+    display:none;
+    
+  }
+  
+  .app-brand-logo{
+    margin-top:60px;
+    margin-bottom:20px;
+    border-bottom: solid 5px;
+  }
+  .app-brand-logo .container .row .bLogo{
+    height: 135px;
+  }
+  
+  .mobile-only{
+  
+  display: block;
+  
+  }
+
+  .app-social-center{
+      
+      text-align: center !important;
+      margin-bottom: 20px;
+  }    
+      
+  .app-social-center h5{
+      text-transform: uppercase;
+      color: #444444;
+      font-weight: 600;
+      font-size: 1em;
+      margin: 0 3px 0;
+      padding: 0;
+  }
+      
+  .app-social-center .platform-icons{
+        height: 45px;
+  }      
+  
+  .platform-icons .ico-mac{
+      background: url('../images/ico_os-logo-ios.png') center center no-repeat;
+      display: inline-block;
+  }
+        
+  .platform-icons .ico-and {
+      background: url('../images/ico_os-logo-and.png') center center no-repeat;
+      display: inline-block;
+  }
+        
+  .platform-icons a{
+    
+    padding: 0;
+    height: 45px;
+    width: 28%;
+    
+  }
+        
+
+  
+  .appCntContainer .feature-container .feature-copy .bullet{
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    line-height: 15px;
+    border: 2px solid !important;
+    
+  }
+  
+  .appCntContainer .feature-container .feature-copy .copy h6{
+    font-weight: 500;
+    font-size: 1.2em !important;
+  }
+  
+  .appCntContainer .feature-container p{
+    font-size: 1em;
+  }
+  
+  
+  .appCntContainer .feature-container .feature-graphic{
+    min-height: 300px;
+  }
+  
+  
+  div.social-share.mobile-only{
+    width:100%;
+    margin: 20px auto 0;
+    padding-left: .5em;
+    
+  }
+    
+    
+    
+}
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+    
+    #home-banner{
+      
+      background-size: cover;
+      margin-top: 55px;
+  }
+  
+  #home-banner div .grid_12 a {
+    padding: 8.5em 0 9em 0;
+    width: 100%;
+    height: auto;
+  }
+
+  #myNavbar.navbar-inverse.navbar-default{
+    height: 70px;
+  }
+
+  #myNavbar.navbar-inverse.navbar-default .navbar-brand img{
+    height: 35px;
+  }
+
+  .navbar-nav{
+    margin: 20px 0 0 0;
+  }
+  
+  .navbar-toggle{
+    margin-top: 15px;
+    
+  }
+  
+  #myNavbar.navbar-inverse.navbar-default .navbar-toggle{
+    
+    background-color: #191d21 !important;
+    
+  }
+  
+  #myNavbar.navbar-inverse.navbar-default .navbar-collapse{
+    background-color: #191d21 !important;
+    
+  }  
+
+ .app-social-right{
+    display:none;
+    
+  }
+  
+  .app-brand-logo{
+    margin-top:60px;
+    margin-bottom:20px;
+    border-bottom: solid 5px;
+  }
+  .app-brand-logo .container .row .bLogo{
+    height: 135px;
+  }
+  
+  .mobile-only{
+  
+  display: block;
+  
+  }
+
+  .app-social-center{
+      
+      text-align: center !important;
+      margin-bottom: 20px;
+  }    
+      
+  .app-social-center h5{
+      text-transform: uppercase;
+      color: #444444;
+      font-weight: 600;
+      font-size: 1em;
+      margin: 0 3px 0;
+      padding: 0;
+  }
+      
+  .app-social-center .platform-icons{
+        height: 45px;
+  }      
+  
+  .platform-icons .ico-mac{
+      background: url('../images/ico_os-logo-ios.png') center center no-repeat;
+      display: inline-block;
+  }
+        
+  .platform-icons .ico-and {
+      background: url('../images/ico_os-logo-and.png') center center no-repeat;
+      display: inline-block;
+  }
+        
+  .platform-icons a{
+    
+    padding: 0;
+    height: 45px;
+    width: 28%;
+    
+  }
+        
+
+  
+  .appCntContainer .feature-container .feature-copy .bullet{
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    line-height: 15px;
+    border: 2px solid !important;
+    
+  }
+  
+  .appCntContainer .feature-container .feature-copy .copy h6{
+    font-weight: 500;
+    font-size: 1.2em !important;
+  }
+  
+  .appCntContainer .feature-container p{
+    font-size: 1em;
+  }
+  
+  
+  .appCntContainer .feature-container .feature-graphic{
+    min-height: 300px;
+  }
+  
+  
+  div.social-share.mobile-only{
+    width:100%;
+    margin: 20px auto 0;
+    padding-left: .5em;
+    
+  }
+    
+    
+    
+}
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+    
+    #home-banner{
+      
+      background-size: cover;
+      margin-top: 55px;
+  }
+  
+  #home-banner div .grid_12 a {
+    padding: 8.5em 0 9em 0;
+    width: 100%;
+    height: auto;
+  }
+
+  #myNavbar.navbar-inverse.navbar-default{
+    height: 70px;
+  }
+
+  #myNavbar.navbar-inverse.navbar-default .navbar-brand img{
+    height: 35px;
+  }
+
+  .navbar-nav{
+    margin: 20px 0 0 0;
+  }
+  
+  .navbar-toggle{
+    margin-top: 15px;
+    
+  }
+  
+  #myNavbar.navbar-inverse.navbar-default .navbar-toggle{
+    
+    background-color: #191d21 !important;
+    
+  }
+  
+  #myNavbar.navbar-inverse.navbar-default .navbar-collapse{
+    background-color: #191d21 !important;
+    
+  }  
+
+ .app-social-right{
+    display:none;
+    
+  }
+  
+  .app-brand-logo{
+    margin-top:60px;
+    margin-bottom:20px;
+    border-bottom: solid 5px;
+  }
+  .app-brand-logo .container .row .bLogo{
+    height: 135px;
+  }
+  
+  .mobile-only{
+  
+  display: block;
+  
+  }
+
+  .app-social-center{
+      
+      text-align: center !important;
+      margin-bottom: 20px;
+  }    
+      
+  .app-social-center h5{
+      text-transform: uppercase;
+      color: #444444;
+      font-weight: 600;
+      font-size: 1em;
+      margin: 0 3px 0;
+      padding: 0;
+  }
+      
+  .app-social-center .platform-icons{
+        height: 45px;
+  }      
+  
+  .platform-icons .ico-mac{
+      background: url('../images/ico_os-logo-ios.png') center center no-repeat;
+      display: inline-block;
+  }
+        
+  .platform-icons .ico-and {
+      background: url('../images/ico_os-logo-and.png') center center no-repeat;
+      display: inline-block;
+  }
+        
+  .platform-icons a{
+    
+    padding: 0;
+    height: 45px;
+    width: 28%;
+    
+  }
+        
+
+  
+  .appCntContainer .feature-container .feature-copy .bullet{
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    line-height: 15px;
+    border: 2px solid !important;
+    
+  }
+  
+  .appCntContainer .feature-container .feature-copy .copy h6{
+    font-weight: 500;
+    font-size: 1.2em !important;
+  }
+  
+  .appCntContainer .feature-container p{
+    font-size: 1em;
+  }
+  
+  
+  .appCntContainer .feature-container .feature-graphic{
+    min-height: 300px;
+  }
+  
+  
+  div.social-share.mobile-only{
+    width:100%;
+    margin: 20px auto 0;
+    padding-left: .5em;
+    
+  }
+    
+    
+    
+}
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+
+
+
+
+
+
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+    
+    #home-banner{
+      
+      background-size: cover;
+      margin-top: 55px;
+  }
+  
+  #home-banner div .grid_12 a {
+    padding: 8.5em 0 9em 0;
+    width: 100%;
+    height: auto;
+  }
+
+  #myNavbar.navbar-inverse.navbar-default{
+    height: 70px;
+  }
+
+  #myNavbar.navbar-inverse.navbar-default .navbar-brand img{
+    height: 35px;
+  }
+
+  .navbar-nav{
+    margin: 20px 0 0 0;
+  }
+  
+  .navbar-toggle{
+    margin-top: 15px;
+    
+  }
+  
+  #myNavbar.navbar-inverse.navbar-default .navbar-toggle{
+    
+    background-color: #191d21 !important;
+    
+  }
+  
+  #myNavbar.navbar-inverse.navbar-default .navbar-collapse{
+    background-color: #191d21 !important;
+    
+  }  
+
+ .app-social-right{
+    display:none;
+    
+  }
+  
+  .app-brand-logo{
+    margin-top:60px;
+    margin-bottom:20px;
+    border-bottom: solid 5px;
+  }
+  .app-brand-logo .container .row .bLogo{
+    height: 135px;
+  }
+  
+  .mobile-only{
+  
+  display: block;
+  
+  }
+
+  .app-social-center{
+      
+      text-align: center !important;
+      margin-bottom: 20px;
+  }    
+      
+  .app-social-center h5{
+      text-transform: uppercase;
+      color: #444444;
+      font-weight: 600;
+      font-size: 1em;
+      margin: 0 3px 0;
+      padding: 0;
+  }
+      
+  .app-social-center .platform-icons{
+        height: 45px;
+  }      
+  
+  .platform-icons .ico-mac{
+      background: url('../images/ico_os-logo-ios.png') center center no-repeat;
+      display: inline-block;
+  }
+        
+  .platform-icons .ico-and {
+      background: url('../images/ico_os-logo-and.png') center center no-repeat;
+      display: inline-block;
+  }
+        
+  .platform-icons a{
+    
+    padding: 0;
+    height: 45px;
+    width: 28%;
+    
+  }
+        
+
+  
+  .appCntContainer .feature-container .feature-copy .bullet{
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    line-height: 15px;
+    border: 2px solid !important;
+    
+  }
+  
+  .appCntContainer .feature-container .feature-copy .copy h6{
+    font-weight: 500;
+    font-size: 1.2em !important;
+  }
+  
+  .appCntContainer .feature-container p{
+    font-size: 1em;
+  }
+  
+  
+  .appCntContainer .feature-container .feature-graphic{
+    min-height: 300px;
+  }
+  
+  
+  div.social-share.mobile-only{
+    width:100%;
+    margin: 20px auto 0;
+    padding-left: .5em;
+    
+  }
+    
+    
+    
+    
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+
+
+
+/* Portrait */
+@media only screen 
+  and (min-width: 360px) 
+  and (min-height: 640px) 
+  and (orientation: portrait) {
+    
+    #home-banner{
+      
+      background-size: cover;
+      margin-top: 55px;
+  }
+  
+  #home-banner div .grid_12 a {
+    padding: 8.5em 0 9em 0;
+    width: 100%;
+    height: auto;
+  }
+
+  #myNavbar.navbar-inverse.navbar-default{
+    height: 70px;
+  }
+
+  #myNavbar.navbar-inverse.navbar-default .navbar-brand img{
+    height: 35px;
+  }
+
+  .navbar-nav{
+    margin: 20px 0 0 0;
+  }
+  
+  .navbar-toggle{
+    margin-top: 15px;
+    
+  }
+  
+  #myNavbar.navbar-inverse.navbar-default .navbar-toggle{
+    
+    background-color: #191d21 !important;
+    
+  }
+  
+  #myNavbar.navbar-inverse.navbar-default .navbar-collapse{
+    background-color: #191d21 !important;
+    
+  }  
+
+ .app-social-right{
+    display:none;
+    
+  }
+  
+  .app-brand-logo{
+    margin-top:60px;
+    margin-bottom:20px;
+    border-bottom: solid 5px;
+  }
+  .app-brand-logo .container .row .bLogo{
+    height: 135px;
+  }
+  
+  .mobile-only{
+  
+  display: block;
+  
+  }
+
+  .app-social-center{
+      
+      text-align: center !important;
+      margin-bottom: 20px;
+  }    
+      
+  .app-social-center h5{
+      text-transform: uppercase;
+      color: #444444;
+      font-weight: 600;
+      font-size: 1em;
+      margin: 0 3px 0;
+      padding: 0;
+  }
+      
+  .app-social-center .platform-icons{
+        height: 45px;
+  }      
+  
+  .platform-icons .ico-mac{
+      background: url('../images/ico_os-logo-ios.png') center center no-repeat;
+      display: inline-block;
+  }
+        
+  .platform-icons .ico-and {
+      background: url('../images/ico_os-logo-and.png') center center no-repeat;
+      display: inline-block;
+  }
+        
+  .platform-icons a{
+    
+    padding: 0;
+    height: 45px;
+    width: 28%;
+    
+  }
+        
+
+  
+  .appCntContainer .feature-container .feature-copy .bullet{
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    line-height: 15px;
+    border: 2px solid !important;
+    
+  }
+  
+  .appCntContainer .feature-container .feature-copy .copy h6{
+    font-weight: 500;
+    font-size: 1.2em !important;
+  }
+  
+  .appCntContainer .feature-container p{
+    font-size: 1em;
+  }
+  
+  
+  .appCntContainer .feature-container .feature-graphic{
+    min-height: 300px;
+  }
+  
+  
+  div.social-share.mobile-only{
+    width:100%;
+    margin: 20px auto 0;
+    padding-left: .5em;
+    
+  }
+    
+    
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,6 +2,8 @@
 
 Deeper system design for the portfolio showcase. No production credentials or proprietary business calibrations are described here.
 
+**Context:** League For Basketball began as a solo-built, store-shipped product in the mid-2010s (see [TIMELINE.md](./TIMELINE.md) and the 2015 [`site-archive/`](./site-archive)). The flows below describe the **later** Cap8 + Cloud Functions shape of that same product family — useful for engineering discussion, not a claim that this exact stack was the 2015 binary.
+
 ---
 
 ## End-to-end data flow
