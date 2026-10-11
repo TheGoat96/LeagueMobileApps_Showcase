@@ -198,4 +198,7 @@ Sanitized excerpts live under [`snippets/`](./snippets).
 - Social + in-app creatives — [`MEDIA/ad-facebook-basketball.jpg`](./MEDIA/ad-facebook-basketball.jpg), [`MEDIA/inapp-checkin-message-basketball.png`](./MEDIA/inapp-checkin-message-basketball.png)
 - Brand stills from the 2015 site — splash / logo / feature shots under [`MEDIA/`](./MEDIA)
 
+<img width="3264" height="2448" alt="IMG_5907" src="https://github.com/user-attachments/assets/6ee35db4-c136-455f-af68-4ddd2fa738df" />
+
+
 ---
