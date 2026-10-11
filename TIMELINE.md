@@ -11,7 +11,9 @@ Dated evidence that League For Basketball / League Mobile Apps was a multi-year 
    2015     League Mobile Apps marketing site + multi-sport suite pages
    2015+    iOS App Store + Google Play releases (suite titles)
    2016     Pitch / opportunity decks, social ads, in-app campaigns, brand ambassadors
-   later    Continued client/backend evolution (Cap8 modernization snippets)
+2015–2019   Suite active in market (store presence + ongoing operations)
+   2019     End of active market circulation for the suite
+   later    Cap8 modernization snippets (engineering continuity / portfolio)
    today    Apps no longer in circulation — portfolio / archival showcase
 ```
 
@@ -30,7 +32,7 @@ Dated evidence that League For Basketball / League Mobile Apps was a multi-year 
 | **2016** | Finished Facebook / Instagram / Twitter ads + in-app message creatives ([`receipts/ads-sample/`](./receipts/ads-sample)) |
 
 ```text
-2015 site → 2016 ambassadors/ads → 2016 pitch (realtime + monetization) → later Cap8 engineering continuity
+2015 site → 2016 ambassadors/ads/pitch → active suite through 2019 → later Cap8 engineering continuity
 ```
 
 ---
@@ -46,7 +48,7 @@ From pitch / opportunity / plan summaries:
 - Marketing: athlete endorsements, social, youth leagues, SMS, app stores
 - Suite across basketball, soccer, volleyball, lacrosse, tennis (EN / ES / FR)
 
-Store deep links on the archived site are historic; apps are **not** currently in circulation.
+Store deep links on the archived site are historic. The suite remained active into **2019** and is **not** currently in circulation.
 
 ---
 

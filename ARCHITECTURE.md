@@ -2,7 +2,7 @@
 
 Deeper system design for the portfolio showcase. No production credentials or proprietary business calibrations are described here.
 
-**Context:** League For Basketball began as a solo-built, store-shipped product in the mid-2010s (see [TIMELINE.md](./TIMELINE.md), [BUSINESS.md](./BUSINESS.md), and the 2015 [`site-archive/`](./site-archive)). Commercially and product-wise it was positioned as a **real-time** platform: live court occupancy, instant peer ratings, and push feedback. The flows below describe the **later** Cap8 + Cloud Functions shape of that same product family — useful for engineering discussion, not a claim that this exact stack was the 2015 binary.
+**Context:** League Mobile Apps (flagship: League For Basketball) was a solo-built, store-shipped suite active roughly **2015–2019** (see [TIMELINE.md](./TIMELINE.md), [BUSINESS.md](./BUSINESS.md), and the 2015 [`site-archive/`](./site-archive)). Commercially and product-wise it was positioned as a **real-time** platform: live court occupancy, instant peer ratings, and push feedback. The flows below describe the **later** Cap8 + Cloud Functions shape of that same product family — useful for engineering discussion, not a claim that this exact stack was the original store binary.
 
 ---
 

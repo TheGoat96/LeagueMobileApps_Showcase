@@ -1,6 +1,6 @@
 # Business & go-to-market (archival summary)
 
-Portfolio summary of how League Mobile Apps was positioned commercially. Sourced from the July 2016 pitch deck, business-opportunity deck, endorsement agreement template, and marketing creatives. **Not a live offering.**
+Portfolio summary of how League Mobile Apps was positioned commercially during its active years (~**2015–2019**). Sourced from the July 2016 pitch deck, business-opportunity deck, endorsement agreement template, and marketing creatives. **Not a live offering.**
 
 The full July 2016 business plan is marked confidential and is **not** republished here. Signed ambassador contracts with personal information are also withheld; the unsigned endorsement template and pitch materials are included under [`receipts/`](./receipts).
 

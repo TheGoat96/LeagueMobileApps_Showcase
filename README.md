@@ -1,8 +1,8 @@
 # League Mobile Apps — Real-Time Sports Social Platform (Showcase)
 
-A multi-sport realtime social platform I designed, built, marketed, and shipped on my own — **League Mobile Apps** — beginning around **2015**. League For Basketball was the flagship; the same product idea shipped across basketball, soccer, volleyball, lacrosse, and tennis.
+A multi-sport realtime social platform I designed, built, marketed, and shipped on my own — **League Mobile Apps** — active from around **2015 through 2019**. League For Basketball was the flagship; the same product idea shipped across basketball, soccer, volleyball, lacrosse, and tennis.
 
-This is portfolio / archival material. The apps were released on the **iOS App Store and Google Play**, but are **no longer in circulation**. The point of this showcase: I have taken mobile products from concept → realtime backend → brand system → ambassador program → store release for a long time.
+This is portfolio / archival material. The apps were released on the **iOS App Store and Google Play**, remained in market through **2019**, and are **no longer in circulation**. The point of this showcase: I have taken mobile products from concept → realtime backend → brand system → ambassador program → store release for a long time.
 
 Snippets under [`snippets/`](./snippets) are **illustrative only**. Cap8 excerpts reflect a later modernization pass on the basketball line of the same product family.
 
@@ -84,9 +84,9 @@ Details + receipts: [BUSINESS.md](./BUSINESS.md) · [`receipts/`](./receipts)
 | Serious marketing system | Pitch GTM slides, social ads, in-app creatives, ambassador template |
 | Brand / advertising opportunity | Sales-channel slides + contextual notification inventory thesis |
 | Brand ambassadors executed | Endorsement Agreement template + 2016 program evidence (signed PII withheld) |
-| Multi-year evolution | ~2015 site → 2016 business materials → later Cap8 snippets |
-| Store-shipped suite | iOS + Android positioning on archived site; five sports |
-| No longer live | Archival framing only |
+| Multi-year evolution | ~2015 launch → 2016 GTM peak materials → active through 2019 → later Cap8 snippets |
+| Store-shipped suite | iOS + Android positioning on archived site; five sports; market presence into 2019 |
+| No longer live | Suite wound down after 2019 — archival framing only |
 
 ---
 
@@ -105,7 +105,7 @@ Details + receipts: [BUSINESS.md](./BUSINESS.md) · [`receipts/`](./receipts)
 
 ---
 
-## The League Mobile Apps suite (~2015–2016)
+## The League Mobile Apps suite (~2015–2019)
 
 Each title was positioned free on **iOS and Android**:
 
