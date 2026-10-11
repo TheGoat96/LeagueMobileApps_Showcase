@@ -245,5 +245,6 @@ Sanitized excerpts live under [`snippets/`](./snippets).
 ---
 | Admin Console sample |
 
-[League Mobile Apps Notifications.pdf](https://github.com/user-attachments/files/33309211/League.Mobile.Apps.Notifications.pdf)
+<img width="1495" height="1757" alt="League Mobile Apps Notifications" src="https://github.com/user-attachments/assets/f887a286-5781-455b-9e3d-77012386cab9" />
+
 
