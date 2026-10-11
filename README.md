@@ -1,10 +1,26 @@
-# League For Basketball — Real-Time Sports Social Platform (Showcase)
+# League Mobile Apps — Real-Time Sports Social Platform (Showcase)
 
-A location-based basketball social app I designed, built, marketed, and shipped on my own — flagship of the **League Mobile Apps** suite that began around **2015**.
+A multi-sport realtime social platform I designed, built, marketed, and shipped on my own — **League Mobile Apps** — beginning around **2015**. League For Basketball was the flagship; the same product idea shipped across basketball, soccer, volleyball, lacrosse, and tennis.
 
 This is portfolio / archival material. The apps were released on the **iOS App Store and Google Play**, but are **no longer in circulation**. The point of this showcase: I have taken mobile products from concept → realtime backend → brand system → ambassador program → store release for a long time.
 
-Snippets under [`snippets/`](./snippets) are **illustrative only**. Cap8 excerpts reflect a later modernization pass on the same product family.
+Snippets under [`snippets/`](./snippets) are **illustrative only**. Cap8 excerpts reflect a later modernization pass on the basketball line of the same product family.
+
+---
+
+## Why this exists (the story)
+
+My name is Sheldon Bradley. I'm a basketball fan and player, and a developer by day. I grew up in Memphis, TN, where basketball is king. Someone donated a portable basketball goal to the kids in my neighborhood, and we played on that goal like there was no tomorrow. When we wanted better competition, we took the goal apart and walked it to other neighborhoods. Probably not the smartest thing to do — but I miss those days of competing just to be known as the best on the block.
+
+That was my whole motivation for creating **League For Basketball**. I wanted young people (and weekend warriors) to get out, compete, discover new places, and interact with one another using the tools we have today. I spent about a year designing and developing the app, and League For Basketball became a real product on the App Store.
+
+There wasn't a basketball app that connected streetball, AAU, high school, college, semi-pro, and pro players — men and women — around the reasons they actually play: compete against the best you can find, sharpen your game, and make a name for yourself among your peers. League For Basketball brought that together through mobile technology, geo-location, and social media.
+
+That basketball app was the flagship of a broader **League Mobile Apps** brand — basketball, soccer, volleyball, lacrosse, and tennis — same realtime product idea, sport by sport.
+
+<p align="center">
+  <img src="./MEDIA/suite-pitch-cover.png" alt="League Mobile Apps suite pitch cover" width="640" />
+</p>
 
 ---
 
@@ -33,22 +49,6 @@ That realtime loop — **congregate → compete → compare** — was the produc
 </p>
 
 See [BUSINESS.md](./BUSINESS.md) for the full go-to-market / monetization write-up, and [ARCHITECTURE.md](./ARCHITECTURE.md) for how check-in, occupancy, ratings, and push were engineered.
-
----
-
-## Why this exists (the story)
-
-My name is Sheldon Bradley. I'm a basketball fan and player, and a developer by day. I grew up in Memphis, TN, where basketball is king. Someone donated a portable basketball goal to the kids in my neighborhood, and we played on that goal like there was no tomorrow. When we wanted better competition, we took the goal apart and walked it to other neighborhoods. Probably not the smartest thing to do — but I miss those days of competing just to be known as the best on the block.
-
-That was my whole motivation for creating **League For Basketball**. I wanted young people (and weekend warriors) to get out, compete, discover new places, and interact with one another using the tools we have today. I spent about a year designing and developing the app, and League For Basketball became a real product on the App Store.
-
-There wasn't a basketball app that connected streetball, AAU, high school, college, semi-pro, and pro players — men and women — around the reasons they actually play: compete against the best you can find, sharpen your game, and make a name for yourself among your peers. League For Basketball brought that together through mobile technology, geo-location, and social media.
-
-That basketball app was the flagship of a broader **League Mobile Apps** brand — basketball, soccer, volleyball, lacrosse, and tennis — same realtime product idea, sport by sport.
-
-<p align="center">
-  <img src="./MEDIA/suite-pitch-cover.png" alt="League Mobile Apps suite pitch cover" width="640" />
-</p>
 
 ---
 
